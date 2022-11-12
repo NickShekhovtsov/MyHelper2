@@ -129,21 +129,33 @@
   <ItemGroup>
     <ClCompile Include="bin_tree.cpp" />
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Education.cpp" />
+    <ClCompile Include="Electricity.cpp" />
     <ClCompile Include="Functional_proggram.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="MyHelper.cpp" />
+    <ClCompile Include="Paper.cpp" />
+    <ClCompile Include="Printer.cpp" />
     <ClCompile Include="Reader.cpp" />
     <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="TastToPrint.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bin_tree.h" />
     <ClInclude Include="Book.h" />
+    <ClInclude Include="Education.h" />
+    <ClInclude Include="Electricity.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="Library.h" />
+    <ClInclude Include="Paper.h" />
+    <ClInclude Include="Printer.h" />
     <ClInclude Include="Reader.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="TaskToPrint.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
