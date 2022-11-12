@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bin_tree.cpp" />
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Functional_proggram.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="Library.cpp" />
     <ClCompile Include="MyHelper.cpp" />
+    <ClCompile Include="Reader.cpp" />
+    <ClCompile Include="Stack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bin_tree.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
